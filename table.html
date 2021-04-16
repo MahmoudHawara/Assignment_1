@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTf-8">
+        <meta name="viewport" content="width:device-width, initial-scale:1.0">
+        <title>The Table</title>
+        <style>
+            .center, th, td, tr {
+                border: 1px solid black;
+                border-collapse: collapse;
+                padding: 2px;
+                text-align: left;
+                width: 800px;
+                height: 30px;
+            }
+            .center {
+                margin-left: auto;
+                margin-right: auto;
+                border: 3px solid;
+            }
+            th {
+                font-family: Calibri;
+            }
+            .white_cell {
+                background-color: white;
+            }
+            .Yellow_cell {
+                background-color: #efff00;
+            }
+            .brown_cell {
+                background-color: #fcebc0;
+            }
+            .gray_cell {
+                background-color: #808080;
+            }
+            .green_cell {
+                background-color: #29ff01;
+            }
+            .blue_cell {
+                background-color: #00ffff;
+            }
+        </style>
+    </head>
+    <body style="background-color: #ccc;">
+        <table class="center">
+            <thead>
+                <tr class="white_cell">
+                    <th></th>
+                    <th>monday</th>
+                    <th>tuesday</th>
+                    <th>wednesday</th>
+                    <th>thursday</th>
+                    <th>friday</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="white_cell">1:00PM</td>
+                    <td rowspan="2" class="Yellow_cell"><ins>HTML</ins></td>
+                    <td class="white_cell"></td>
+                    <td rowspan="2" class="brown_cell">HTML</td>
+                    <td rowspan="8" class="brown_cell">HTML Hour<br>by Apps</td>
+                    <td rowspan="2" class="brown_cell">HTML</td>
+                </tr>
+                <tr>
+                    <td class="white_cell">3:00PM</td>
+                    <td rowspan="2" class="gray_cell">DeptMeeting</td>
+                </tr>
+                <tr>
+                    <td class="white_cell">2:00PM</td>
+                    <td rowspan="3" class="green_cell">CSS</td>
+                    <td rowspan="3" class="green_cell">CSS</td>
+                    <td rowspan="3" class="green_cell">CSS</td>
+                </tr>
+                <tr>
+                    <td class="white_cell">3:00PM</td>
+                    <td class="white_cell"></td>
+                </tr>
+                <tr>
+                    <td class="white_cell">5:00PM</td>
+                    <td rowspan="3" class="gray_cell">EC Meeting</td>
+                </tr>
+                <tr>
+                    <td class="white_cell">3:30PM</td>
+                    <td rowspan="3" class="blue_cell">CSC205</td>
+                    <td rowspan="3" class="blue_cell">CSC205</td>
+                    <td rowspan="3" class="blue_cell">CSC205</td>
+                </tr>
+                <tr>
+                    <td class="white_cell">3:30PM</td>
+                </tr>
+                <tr>
+                    <td class="white_cell">4:00PM</td>
+                    <td class="white_cell"></td>
+                </tr>
+            </tbody>
+        </table>
+        <div style=" margin-left: 23%;"><a href="index.html">Click to return to the main page</a></div>
+    </body>
+</html>
